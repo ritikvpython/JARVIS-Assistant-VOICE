@@ -101,7 +101,7 @@ user_agents = ['Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KH
 
 
 def chat_with_gpt(prompt):
-    api_key = "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"
+    api_key = "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"
     ang = ['1','2','3','4','5','6','7','8','9','0']
     n1 = random.choice(ang)
     n2 = random.choice(ang)
@@ -146,3 +146,4 @@ def mygpt(prompt):
         return ai_response
     except:
         return "I'm Sorry"
+
